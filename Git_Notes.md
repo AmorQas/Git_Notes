@@ -8,7 +8,6 @@ Actually For Test
 cd <file>		//Turn to that file
 mkdir<file> 	//create a file
 git status		//check the changes before
+git diff		//see what changes are made
+git log			//display the history version
 ```
-
-
-
