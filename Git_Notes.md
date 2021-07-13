@@ -11,4 +11,5 @@ git status		//check the changes before
 git diff		//see what changes are made
 git log			//display the history version
 git reset --hard HEAD^	//go back to last version;use HEAD~100 to keep go back
+git reflog		//display the orders brfore
 ```
