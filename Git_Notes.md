@@ -7,7 +7,7 @@ Actually For Test
 ```c
 cd <file>		//Turn to that file
 mkdir<file> 	//create a file
-
+git status		//check the changes before
 ```
 
 
