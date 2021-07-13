@@ -32,6 +32,9 @@ https://blog.csdn.net/weixin_44874806/article/details/97155001）
 
 ```c
 git remote add origin git@github.com:AmorQas/Git_Notes.git//Link with remotrepo
+git push -u origin master		//first push to remote
+git push origin master	//later you can use this order
+git pull			//pull from remote
 git clone git@github.com:AmorQas/gitskills.git		//clone from remote
 git branch dev		//create a branch 'dev'
 git checkout dev	//change to 'dev'
@@ -46,6 +49,16 @@ git stash 			//stash the work you are doing now
 git stash pop		//apply the stash and drop it
 git stash list		//as the name says
 git cherry-pick 4c805e2	//merge only the part of "4c805e2"
-    
+git branch -D dev	//delete branch 'dev'  before merge
+git tag V1.0		//tag the version now
+git tag				//check the tag history
+git tag v0.9 f52c633 //tag 'f52c633'
+git tag -a v0.1 -m "version 0.1 released" 1094adb	//attach more information
+git show v0.9		//show the information
+git tag -d v0.1		//delete a tag
+git push origin v1.0 //as the name says
+git push origin --tags//push all the tags
+git config --global alias.st status  //give another name to a order(status->st)
+
 ```
 
