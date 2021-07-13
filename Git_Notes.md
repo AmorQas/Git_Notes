@@ -13,3 +13,12 @@ git log			//display the history version
 git reset --hard HEAD^	//go back to last version;use HEAD~100 to keep go back
 git reflog		//display the orders brfore
 ```
+
+(If you want to put the Typora icon into the right button of the mouse:
+
+https://blog.csdn.net/qq_26795797/article/details/107759283)
+
+```c
+
+```
+
