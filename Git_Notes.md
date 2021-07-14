@@ -62,3 +62,4 @@ git config --global alias.st status  //give another name to a order(status->st)
 
 ```
 
+(How to set SSH key in sourcetree:https://blog.csdn.net/qq_38584967/article/details/78273614)
